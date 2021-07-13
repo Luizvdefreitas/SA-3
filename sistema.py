@@ -3,7 +3,7 @@ valor_recebido = float(input("Digite o valor recebido: ")) # Valor total recebid
 operacao = True
 
 
-if(valor_total > valor_recebido): # Se o valor recebido for que o valor total, saldo insuficiente.
+if(valor_total > valor_recebido): # Se o valor total for maior que o valor recebido, o saldo é insuficiente.
     import sys 
     sys.exit("Saldo insuficiente!") # Encerra o programa
     
